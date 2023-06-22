@@ -24,7 +24,6 @@ def organize_files(folder_path):
         files = os.listdir(folder_path)
         executor.map(process_file, files)
 
-    print("File organization completed!")
 
 current_dir = os.getcwd()
 
