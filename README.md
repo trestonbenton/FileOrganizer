@@ -1,3 +1,3 @@
-# FileOrganizer
+# file organizers
 
-filename organizer using os, shutil and concurrent.futures. 
+just some python scripts to sort files/rename
