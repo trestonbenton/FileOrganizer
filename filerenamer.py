@@ -44,7 +44,10 @@ def organize_directory(directory):
     else:
         print("\nOrganizing skipped.")
 
-directory_path = input("Enter the directory path: ")
+# Ask for directory path, default to current directory if left blank
+directory_path = input("Enter the directory path (or press Enter to use the current directory): ")
+if not directory_path:
+    directory_path = os.getcwd()
 
 organize_directory(directory_path)
 
